@@ -7,7 +7,8 @@ LABEL \
 
 RUN apk add --no-cache iproute2 \
                        docker-cli \
-                       dumb-init
+                       dumb-init \
+                       git
 
 COPY . /usr/local/bin/
 
